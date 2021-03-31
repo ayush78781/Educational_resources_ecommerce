@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "234711072948",
+    "project_id": "e-resources-ecommerce",
+    "storage_bucket": "e-resources-ecommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234711072948:android:7450fa5079ba33ab0717e1",
+        "android_client_info": {
+          "package_name": "com.example.books_ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234711072948-p5vvjlvnm7a8e0j640eq628nkhlmaa9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-AIf8tX0P0ZqYe8l_PZK_v4nSpmbZQX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234711072948-p5vvjlvnm7a8e0j640eq628nkhlmaa9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
