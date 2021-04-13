@@ -31,28 +31,24 @@ We propose an app with the vision to connect the people who are in search of edu
 
 <p align= "center"><img src="RoadMap Of App 3.png"></p>
 
-<h2 align= "left"><b>Our Mockup🎨</b></h2>
-
-<p align= "center"><img width=70% height=50% src="images/Mockup01.png"></p>
 
 <h2 align= "left"><b>Tech Stack🧐</b></h2>
 
 - Flutter
 - Firebase
 
-<p align= "center"><img width=35% src="images/hack20.png"></p>
 
-<h1 align= "left"><b>The Geeks behind RELIC_BAZAAR 🤓</b></h1>
+<h1 align= "left"><b>The Geeks behind Educational_resources_ecommerce🤓</b></h1>
 
-|<img src="https://avatars2.githubusercontent.com/u/44980497?v=4">|<img src="https://avatars2.githubusercontent.com/u/46641503?v=4">|<img src="https://avatars3.githubusercontent.com/u/54989142?v=4">|<img src="https://avatars3.githubusercontent.com/u/40017559?v=4">|
+|<p><img width=30% height=20% src="Ayush Saxena.jpg"></p>|
 |----------------------------|--------|----------------------------|--------|
-|<p align="center">[Himanshu Sharma](https://github.com/himanshusharma89)</p>|<p align="center">[Smaranjit Ghose](https://github.com/smaranjitghose)</p>|<p align="center">[Ishan Sharma](https://github.com/ishandeveloper)</p>|<p align="center">[Anush Bhatia](https://github.com/anushbhatia)</p>|
+|<p align="left">[Ayush Saxena](https://github.com/ayush78781)</p>|
  
-## RELIC BAZAAR is a part of these open source programs:
+# Eduactional_resources_ecommerce is a part of Google Solution Challenge'21:
 
 <p align="center">
  <a>
- <img  width="70%" height="30%" src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png">
+ <img  width="70%" height="30%" src="https://developers.google.com/community/dsc-solution-challenge">
 
  
 </p>
