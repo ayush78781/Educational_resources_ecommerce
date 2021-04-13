@@ -41,14 +41,13 @@ We propose an app with the vision to connect the people who are in search of edu
 <h1 align= "left"><b>The Geeks behind Educational_resources_ecommerce🤓</b></h1>
 
 |<p><img width=30% height=20% src="Ayush Saxena.jpg"></p>|
-|----------------------------|--------|----------------------------|--------|
 |<p align="left">[Ayush Saxena](https://github.com/ayush78781)</p>|
  
 # Eduactional_resources_ecommerce is a part of Google Solution Challenge'21:
 
 <p align="center">
  <a>
- <img  width="70%" height="30%" src="https://developers.google.com/community/dsc-solution-challenge">
+ <img  width="70%" height="30%" src="dsc_2021_header.png">
 
  
 </p>
