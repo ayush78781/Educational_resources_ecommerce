@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import '../models/cart.dart';
+import 'package:provider/provider.dart';
 
 class CartPdt extends StatelessWidget {
   final String id;
@@ -19,7 +19,7 @@ class CartPdt extends StatelessWidget {
         color: Colors.red,
       ),
       onDismissed: (direction) {
-        Provider.of<Cart>(context, listen: false).removeItem(productId);
+        Provider.of<Cart>(context).removeItem(productId);
       },
       child: Card(
         child: ListTile(

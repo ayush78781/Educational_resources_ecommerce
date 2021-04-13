@@ -1,4 +1,3 @@
-import 'package:books_ecommerce/models/orders.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/cart.dart';
@@ -13,7 +12,7 @@ class CartScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'My Cart',
+          'Wishlist',
           style: TextStyle(fontSize: 30, color: Theme.of(context).accentColor),
         ),
       ),
@@ -21,51 +20,25 @@ class CartScreen extends StatelessWidget {
         children: <Widget>[
           Expanded(
             child: ListView.builder(
-                itemCount: cart.items.length,
-                itemBuilder: (ctx, i) => CartPdt(
-                    cart.items.values.toList()[i].id,
-                    cart.items.keys.toList()[i],
-                    cart.items.values.toList()[i].price,
-                    cart.items.values.toList()[i].quantity,
-                    cart.items.values.toList()[i].name)),
+              itemCount: cart.items.length,
+              itemBuilder: (ctx, i) => CartPdt(
+                cart.items.values.toList()[i].id,
+                cart.items.keys.toList()[i],
+                cart.items.values.toList()[i].price,
+                cart.items.values.toList()[i].quantity,
+                cart.items.values.toList()[i].name,
+              ),
+            ),
           ),
-          CheckoutButton(
-            cart: cart,
+          FlatButton(
+            onPressed: () {},
+            child: Text(
+              'Place Order',
+              style: TextStyle(color: Colors.blue, fontSize: 20),
+            ),
           ),
-          // FlatButton(
-          //     onPressed: () {
-          //     },
-          //     child: Text(
-          //       'Checkout',
-          //       style: TextStyle(color: Colors.blue, fontSize: 20),
-          //     ))
         ],
       ),
-    );
-  }
-}
-
-class CheckoutButton extends StatefulWidget {
-  final Cart cart;
-
-  const CheckoutButton({@required this.cart});
-  @override
-  _CheckoutButtonState createState() => _CheckoutButtonState();
-}
-
-class _CheckoutButtonState extends State<CheckoutButton> {
-  @override
-  Widget build(BuildContext context) {
-    // ignore: deprecated_member_use
-    return FlatButton(
-      child: Text('Checkout'),
-      onPressed: widget.cart.totalAmount <= 0
-          ? null
-          : () async {
-              await Provider.of<Orders>(context, listen: false).addOrder(
-                  widget.cart.items.values.toList(), widget.cart.totalAmount);
-              widget.cart.clear();
-            },
     );
   }
 }

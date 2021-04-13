@@ -25,13 +25,13 @@ class PdtItem extends StatelessWidget {
           footer: GridTileBar(
             title: Text(name),
             trailing: IconButton(
-                icon: Icon(Icons.shopping_cart),
+                icon: Icon(Icons.favorite_border_outlined),
                 onPressed: () {
-                  // ignore: deprecated_member_use
-                  Scaffold.of(context).showSnackBar(SnackBar(
-                    duration: Duration(seconds: 3),
-                    content: Text('Item Added to Cart'),
-                  ));
+                  ScaffoldFeatureController<SnackBar, SnackBarClosedReason>
+                      showSnackBar;
+                  (SnackBar(
+                      duration: Duration(seconds: 3),
+                      content: Text('Item Added to Cart')));
                   cart.addItem(pdt.id, pdt.name, pdt.price);
                 }),
             backgroundColor: Colors.black87,
